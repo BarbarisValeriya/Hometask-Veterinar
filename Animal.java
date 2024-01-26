@@ -8,7 +8,6 @@ public class Animal {
      protected LocalDate birthDate;
      protected Illness illness;
 
-     // Это пустой конструктор (по умолчанию)
      public Animal(String nickName, Owner owner, LocalDate birthDate, Illness illness) {
           this.nickName = nickName;
           this.owner = owner;
